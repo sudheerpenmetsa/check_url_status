@@ -34,18 +34,19 @@ Main_Menu() : Used to call all functions
 tee Command: Used to record the logs.
 
 curl Command: Used to get the status codes.
+++++++++++
 
- 
 
-  
 
-   
 
-    
 
-     
 
-      
+
+
+
+
+
+
 
       #!/bin/bash
       #bash to check url status.
@@ -172,7 +173,7 @@ curl Command: Used to get the status codes.
       Main_Menu | tee -a $SCRIPT_LOG
       Send_Log
 
-       
+
 
        After Running the script with above urllist the output will look like below. And It will send a mail to the MAIL_TO list incase any url found down or status code does not come in the safe list defined in SetParam function.
 
