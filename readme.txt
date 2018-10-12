@@ -36,18 +36,6 @@ tee Command: Used to record the logs.
 curl Command: Used to get the status codes.
 ++++++++++
 
-
-
-
-
-
-
-
-
-
-
-
-
       #!/bin/bash
       #bash to check url status.
       #set -x; # Enable this to enable debug mode.
